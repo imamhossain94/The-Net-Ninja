@@ -1,9 +1,19 @@
+/******************************
+*
+*This is an external css
+*
+******************************/
+
+
+
+
 #header{
-    position: absolute;
-    left: 0;
+    position: relative;
+    /* left: 0;
     right: 0;
-    width: 100%;
+    width: 100%; */
 }
+
 
 #header h1{
     font-size: 52px;
