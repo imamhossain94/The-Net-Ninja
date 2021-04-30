@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background: #eee;
+        }
+
+        #main-container{
+            background: #fff;
+            margin: 0 auto;
+            padding: 20px;
+            width: 1200px;
+        }
+
+        /* .block{
+            padding: 20px;
+            margin: 20px;
+            border: 2px blue solid;
+            height: 60px;
+            width: 400px;
+        } */
+
+        .block-static{
+            padding: 20px;
+            margin: 20px;
+            border: 2px blue solid;
+            height: 40px;
+            width: 400px;
+            border-radius: 10px 5px 10px 50px;
+        }
+
+        .block-parcentage{
+            padding: 20px;
+            margin: 20px;
+            border: 2px blue solid;
+            height: 40px;
+            width: auto;
+            border-radius: 25px 25px;
+        }
+
+        .inline{
+            padding: 20px;
+            margin: 20px;
+            border: 2px blue solid;
+            background-color: #eee;
+            height: 60px;
+            width: 60px;
+            border-radius: 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="main-container">
+        
+        <h1>Width And Height</h1>
+
+        <h3>Block level element</h3>
+        <div class="block-static">This is an inline element</div>
+        <div class="block-parcentage">This is an inline element</div>
+        <div class="block">This is an inline element</div>
+
+        <h3>Inline element</h3>
+        <span class="inline">Inline</span>
+        <span class="inline">Inline</span>
+        <span class="inline">Inline</span>
+
+
+    </div>
+
+</body>
+</html>
+
